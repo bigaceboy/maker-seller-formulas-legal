@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Maker &amp; Seller Formulas</title>
+<style>
+:root { --ink:#202124; --muted:#5f6368; --link:#1a73e8; --bg:#fff; --border:#dadce0; }
+* { box-sizing: border-box; }
+body { margin:0; font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--ink); background:var(--bg); }
+header { border-bottom:1px solid var(--border); padding:16px 20px; }
+header a { color:var(--ink); text-decoration:none; font-weight:600; }
+nav a { margin-right:16px; color:var(--link); font-weight:500; }
+main { max-width:720px; margin:0 auto; padding:24px 20px 64px; }
+h1 { font-size:1.75rem; margin:0 0 8px; }
+h2 { font-size:1.15rem; margin:28px 0 8px; }
+p,li { color:var(--ink); }
+.meta { color:var(--muted); font-size:0.9rem; margin-bottom:24px; }
+.draft { background:#fff8e1; border:1px solid #fbc02d; border-radius:8px; padding:10px 12px; margin:0 0 20px; font-size:0.92rem; }
+footer { border-top:1px solid var(--border); padding:16px 20px; color:var(--muted); font-size:0.85rem; }
+a { color:var(--link); }
+code { background:#f1f3f4; padding:1px 4px; border-radius:3px; font-size:0.92em; }
+ul { padding-left:1.25rem; }
+</style>
+</head>
+<body>
+<header>
+  <div><a href="index.html">Maker &amp; Seller Formulas</a></div>
+  <nav><a href="index.html">Home</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav>
+</header>
+<main>
+<h1>Privacy Policy — Maker &amp; Seller Formulas</h1>
+<p>Last updated: 2026-11-05 (America/New_York).</p>
+<p>Maker &amp; Seller Formulas (“the Add-on”) is a Google Sheets add-on provided by Anthony Crawford / Kitcroft (“we”, “us”).</p>
+<h2>What the Add-on does</h2>
+<p>The Add-on runs formulas and a structure-drawing sidebar <strong>inside your Google Sheet</strong>. Chemistry, fee, and shop calculations run in your spreadsheet. Drawn structures are processed in the Add-on to show formula and molecular weight; that processing happens in Google Apps Script for your session.</p>
+<h2>Data we access</h2>
+<p>With your permission (Google OAuth), the Add-on may:</p>
+<ul>
+<li>Read and write <strong>the Google Sheet you have open</strong> (<code>spreadsheets.currentonly</code>) so custom functions and “Insert into cells” can work.</li>
+<li>Show <strong>menus and sidebars</strong> (<code>script.container.ui</code>).</li>
+<li>Call <strong>Stripe’s API</strong> over HTTPS (<code>script.external_request</code>) when you use <strong>Activate Pro</strong>, to verify that the email you enter matches a paid checkout for this product.</li>
+</ul>
+<p>We do <strong>not</strong> request access to all of your Drive files, Gmail, or Contacts.</p>
+<h2>License / payment data</h2>
+<p>If you buy Pro, payment is processed by <strong>Stripe</strong>. At activation you enter the <strong>email address you used at checkout</strong>; the Add-on sends that email to Stripe solely to look up your paid Checkout Session / subscription and confirm it is not refunded, canceled, or (for a one-month pass) past its 30-day window. We store in Google Apps Script <strong>Document Properties</strong> for the open sheet: that email, plan, and Pro cache expiry. We do <strong>not</strong> cap how many sheets you activate. We do <strong>not</strong> receive or store full card numbers. We do <strong>not</strong> email a separate license key.</p>
+<h2>Third-party services</h2>
+<ul>
+<li><strong>Google</strong> — hosts Sheets and Apps Script; see <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</li>
+<li><strong>Stripe</strong> — payment processing and purchase verification; see <a href="https://stripe.com/privacy" rel="noopener">Stripe Privacy Policy</a>.</li>
+<li><strong>jsDelivr / JSME</strong> — the Draw structure sidebar loads the JSME editor from a public CDN in your browser. JSME is open source under the BSD-3-Clause license.</li>
+</ul>
+<h2>How long we keep data</h2>
+<p>Pro cache on a sheet expires automatically (within 12 hours, or sooner when a one-month pass ends). You can clear it via the Add-on menu. You can ask us to delete support records by emailing support (subject to legal retention needs).</p>
+<h2>Children</h2>
+<p>The Add-on is intended for general audiences including students. We do not knowingly collect personal information from children under 13 except as needed to deliver a license a parent or school purchased. Contact support to delete such data.</p>
+<h2>Contact</h2>
+<p>Support email: <strong>anthonycrawford@gmail.com</strong>  </p>
+<p>Google Cloud project: Sheets Formula Addon (<code>sheets-formula-addon</code>).</p>
+<h2>Changes</h2>
+<p>We may update this policy; the “Last updated” date will change. Continued use after an update means you accept the revised policy.</p>
+</main>
+<footer>
+  Support: <a href="mailto:anthonycrawford@gmail.com">anthonycrawford@gmail.com</a>
+</footer>
+</body>
+</html>
